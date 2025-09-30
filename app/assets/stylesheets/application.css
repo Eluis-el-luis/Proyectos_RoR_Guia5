@@ -9,3 +9,30 @@ p
  height:15px;
  text-align: center;
 }
+
+table {
+    border-collapse: collapse;
+    width: 350px; /* Ajusta el ancho */
+    box-shadow: 2px 2px 5px #aaa; /* Opcional: una sombra sutil */
+  }
+
+  th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  /* Estilos específicos para la columna de claves (azul) */
+  th {
+    background-color: #2a73a6; /* Azul más oscuro */
+    color: white; /* Letras blancas */
+    text-align: left;
+    width: 30%; /* Ancho para las claves */
+  }
+
+  /* Estilos específicos para la columna de valores (amarillo claro) */
+  td {
+    background-color: #f7e69f; /* Amarillo claro/crema */
+    text-align: left;
+    font-weight: bold;
+  }
